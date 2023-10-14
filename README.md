@@ -47,7 +47,7 @@ This application is built using React.js and Axios to fetch exchange rate data f
 handleAmount1Change, handleCurrency1Change, handleAmount2Change, and handleCurrency2Change are event handling functions. They update state variables based on user interactions.
 Rendering: Inside the return statement, the component renders a simple UI:
 
-- A title, "Currency Converter," is displayed as an <h1> element.
+- A title, "Currency Converter," is displayed as an element.
 Two instances of the CurrencyInput component are used. Each CurrencyInput represents an input field for currency amount and a dropdown to select the currency. They receive event handling functions and the list of available currencies.
 
 ## Prerequisites
